@@ -17,7 +17,8 @@
         }
 
         body {
-            background: #f0f2f5;
+            /* Updated background using the logo's dark blue tone */
+            background: linear-gradient(135deg, #0a0885 0%, #100cce 100%);
             color: #333;
             display: flex;
             justify-content: center;
@@ -32,7 +33,7 @@
             max-width: 480px;
             background: #ffffff;
             border-radius: 20px;
-            box-shadow: 0 4px 20px rgba(0,0,0,0.06);
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
             padding: 40px 25px;
             display: flex;
             flex-direction: column;
@@ -44,14 +45,14 @@
             width: 100px;
             height: 100px;
             border-radius: 50%;
-            border: 3px solid #004aad;
+            border: 3px solid #100cce;
             display: flex;
             justify-content: center;
             align-items: center;
-            background: #e6f0fa;
+            background: #e6e8fa;
             margin-bottom: 15px;
             overflow: hidden;
-            box-shadow: 0 4px 10px rgba(0, 74, 173, 0.15);
+            box-shadow: 0 4px 10px rgba(16, 12, 206, 0.2);
         }
 
         .profile-circle img {
@@ -63,14 +64,14 @@
         .brand-title {
             font-size: 1.3rem;
             font-weight: 700;
-            color: #2c3e50;
+            color: #0a0885;
             margin-bottom: 5px;
             text-align: center;
         }
 
         .brand-subtitle {
             font-size: 0.9rem;
-            color: #666;
+            color: #555;
             margin-bottom: 25px;
             text-align: center;
         }
@@ -87,7 +88,7 @@
         }
 
         .social-row a {
-            color: #004aad;
+            color: #100cce;
             font-size: 1.2rem;
             transition: transform 0.2s;
         }
@@ -113,8 +114,8 @@
             width: 100%;
             padding: 14px 20px;
             background: #ffffff;
-            color: #2c3e50;
-            border: 2px solid #004aad;
+            color: #0a0885;
+            border: 2px solid #100cce;
             border-radius: 12px;
             text-decoration: none;
             font-weight: 600;
@@ -129,10 +130,10 @@
         }
 
         .bio-btn:hover {
-            background: #004aad;
+            background: #100cce;
             color: #ffffff;
             transform: translateY(-2px);
-            box-shadow: 0 6px 12px rgba(0, 74, 173, 0.2);
+            box-shadow: 0 6px 12px rgba(16, 12, 206, 0.3);
         }
 
         .bio-btn i {
@@ -151,7 +152,7 @@
 <body>
 
     <div class="bio-container">
-        <!-- Logo Image Header -->
+        <!-- Logo Image Header[cite: 1] -->
         <div class="profile-circle">
             <img src="logo.png" alt="Lisotech Innovations Logo">
         </div>
@@ -159,7 +160,7 @@
         <div class="brand-title">LISOTECH INNOVATIONS</div>
         <div class="brand-subtitle">Tech, Compliance & Digital Solutions</div>
 
-        <!-- Social Icons Row -->
+        <!-- Social Icons Row[cite: 1] -->
         <div class="social-row">
             <a href="https://lisotechzam.site" target="_blank" title="Website"><i class="fa-solid fa-globe"></i></a>
             <a href="https://facebook.com/lisotechinnovations" target="_blank" title="Facebook"><i class="fa-brands fa-facebook-f"></i></a>
@@ -168,7 +169,7 @@
             <a href="https://wa.me/260974101130" target="_blank" title="WhatsApp"><i class="fa-brands fa-whatsapp"></i></a>
         </div>
 
-        <!-- Action Links Card Wrapper -->
+        <!-- Action Links Card Wrapper[cite: 1] -->
         <div class="links-card-wrapper">
             <a href="https://lisotechzam.site" class="bio-btn" target="_blank">
                 <i class="fa-solid fa-globe"></i> Visit Our Website
@@ -196,7 +197,7 @@
         </div>
 
         <div class="footer-info">
-            Call/WhatsApp: +260974101130
+            Call/WhatsApp: +260974101130[cite: 1]
         </div>
     </div>
 
